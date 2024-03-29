@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+header img {
+  width: 50px;
+}
+header p {
+  font-size: 20px;
+  color: #000000;
+  background-color: #FFA400;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+header nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header nav h1 {
+  font-size: 12px;
+}
+header nav span {
+  font-size: 13px;
+}
+header nav a {
+  font-size: 15px;
+}
+header nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+header nav a:hover {
+  color: #ffbc3f;
+}
+header .zvon {
+  background-color: #FFA400;
+  width: 200px;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+header .slujb {
+  text-align: end;
+  width: 100px;
+  height: 18px;
+}
+
+.buy {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/01.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 100px;
+}
+.buy .kvat {
+  width: 480px;
+  height: 204px;
+}
+.buy .kvat p {
+  color: #fff;
+  font-size: 64px;
+}
+.buy .kvat h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 10;
+}
+.buy .ish {
+  background-color: #fff;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 50px 100px;
+}
+.buy .ish p {
+  font-size: 15px;
+  font-weight: 900;
+}
+.buy .zakk {
+  background-color: #FFA400;
+  width: 250px;
+  height: 5vh;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: -25px;
+}
+.buy .zakk a {
+  text-decoration: none;
+  color: #241F20;
+}
+.buy h2 {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.katal {
+  width: 100%;
+  height: 180vh;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: center;
+}
+.katal img {
+  width: 300px;
+  height: 380px;
+}
+.katal .hpp {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 50px;
+  overflow: hidden;
+  margin-left: 175px;
+  display: grid;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */
